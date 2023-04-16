@@ -21,7 +21,7 @@ Then we trained a Bayesian regression model to predict the revenue generated wit
 ## Model 2 - Reinforcement Learning Multi Armed Bandit
 Now that we got a distribution of revenue, we wanted to find out for each player profile out of all possible free play offers given, which offer is the best one i.e. which one would generate the most revenue. For this problem, we used the Multi Armed Bandit problem to model our solution. The MAB is a classic ML problem of a player who visits a casino but is not sure of what slot machine to play so that he can earn the most money. We just reversed the roles in our case and used it to solve our problem. We want to maximize revenue from the player but are not sure which free play offer to send.
 
-	To solve this problem there are various approaches. We used the UCB algorithm to solve this which balances the exploration exploitation between free play values to maximize our revenue. The final output of our model was the free play offer on a player profile level. 
+To solve this problem there are various approaches. We used the UCB algorithm to solve this which balances the exploration exploitation between free play values to maximize our revenue. The final output of our model was the free play offer on a player profile level. 
   
 ## Results
 We managed to get a 15% boost in revenue from these personalized marketing offers compared to the older approach.
